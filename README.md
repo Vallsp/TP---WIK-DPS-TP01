@@ -3,7 +3,7 @@
 <p class="has-line-data" data-line-start="4" data-line-end="12">sudo apt install npm, git<br>
 Git-clone <a href="https://github.com/Vallsp/TP">https://github.com/Vallsp/TP</a>—WIK-DPS-TP01.git<br>
 cd TP—WIK-DPS-TP01<br>
-cd my_project<br>
+cd typescript<br>
 npm init -y<br>
 npm install<br>
 npx tsc --init --rootDir src --outDir build --esModuleInterop --resolveJsonModule --lib es6 --module commonjs --allowJs true --noImplicitAny true<br>
