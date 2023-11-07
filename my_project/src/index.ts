@@ -1,7 +1,8 @@
 import http from 'http';
 
 const hostname = '127.0.0.1';
-const port = 3000;
+const defaultPort = 3000;
+const port = process.env.PING_LISTEN_PORT ? parseInt(process.env.PING_LISTEN_PORT, 10) : defaultPort;
 
 const server = http.createServer((req, res) => {
   if (req.method === 'GET' && req.url === '/ping') {
@@ -16,4 +17,5 @@ const server = http.createServer((req, res) => {
 
 server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
+
 });
