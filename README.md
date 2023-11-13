@@ -14,7 +14,7 @@
 <p class="has-line-data" data-line-start="10" data-line-end="11">cd TP—WIK-DPS-TP01</p>
 </li>
 <li class="has-line-data" data-line-start="11" data-line-end="12">
-<p class="has-line-data" data-line-start="11" data-line-end="12">cd my_project</p>
+<p class="has-line-data" data-line-start="11" data-line-end="12">cd typescript</p>
 </li>
 <li class="has-line-data" data-line-start="12" data-line-end="13">
 <p class="has-line-data" data-line-start="12" data-line-end="13">npm install</p>
