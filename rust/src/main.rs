@@ -38,7 +38,7 @@ fn handle_client(mut stream: TcpStream) {
 
 fn main() {
     let port = env::var("PING_LISTEN_PORT").unwrap_or("8080".to_string());
-    let addr = format!("127.0.0.1:{}", port);
+    let addr = format!("0.0.0.0:{}", port);
 
     let listener = TcpListener::bind(&addr).unwrap();
 

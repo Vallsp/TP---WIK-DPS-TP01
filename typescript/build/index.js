@@ -4,7 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const http_1 = __importDefault(require("http"));
-const hostname = '127.0.0.1';
+const hostname = '0.0.0.0';
 const defaultPort = 3000;
 const port = process.env.PING_LISTEN_PORT ? parseInt(process.env.PING_LISTEN_PORT, 10) : defaultPort;
 const server = http_1.default.createServer((req, res) => {

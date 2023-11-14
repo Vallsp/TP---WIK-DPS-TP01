@@ -1,6 +1,6 @@
 import http from 'http';
 
-const hostname = '127.0.0.1';
+const hostname = '0.0.0.0';
 const defaultPort = 3000;
 const port = process.env.PING_LISTEN_PORT ? parseInt(process.env.PING_LISTEN_PORT, 10) : defaultPort;
 
